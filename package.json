@@ -1,0 +1,29 @@
+{
+  "name": "bulk-data-ingest",
+  "version": "1.0.0",
+  "description": "bulk-data-ingest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhragni/bulk-data-ingest.git"
+  },
+  "keywords": [
+    "s3"
+  ],
+  "author": "ragini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhragni/bulk-data-ingest/issues"
+  },
+  "homepage": "https://github.com/singhragni/bulk-data-ingest#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fast-csv": "^5.0.2"
+  }
+}
